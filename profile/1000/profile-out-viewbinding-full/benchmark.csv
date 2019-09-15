@@ -1,0 +1,28 @@
+scenario,default
+version,5.6.2
+tasks,clean assemble detekt check ktlintCheck
+value,execution
+warm-up build #1,80727
+warm-up build #2,43615
+warm-up build #3,38509
+warm-up build #4,32462
+warm-up build #5,32938
+warm-up build #6,30261
+measured build #1,31302
+measured build #2,29069
+measured build #3,31607
+measured build #4,37072
+measured build #5,29644
+measured build #6,29169
+measured build #7,26240
+measured build #8,24894
+measured build #9,23028
+measured build #10,23627
+mean,28565.2
+min,23028.0
+25th percentile,24577.25
+median,29119.0
+75th percentile,31378.25
+max,37072.0
+stddev,4279.422775198646
+confidence,0.0
